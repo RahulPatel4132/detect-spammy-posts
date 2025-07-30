@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────
+#  Global ignores (macOS / Windows / editors)
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# prevent accidental commit of any .env, but allow sample files
+!.env.example
+
+# ─────────────────────────────────────────────────────────────
+#  Node / TypeScript (api/)
+# ─────────────────────────────────────────────────────────────
+api/node_modules/
+api/dist/
+api/coverage/
+api/.turbo/
+api/*.tsbuildinfo
+
+# Logs written by ts-node-dev, nodemon, etc.
+api/*.log
+
+# ─────────────────────────────────────────────────────────────
+#  Angular workspace (ui/)
+# ─────────────────────────────────────────────────────────────
+ui/node_modules/
+ui/.angular/
+ui/.angular-cache/
+ui/.cache/
+ui/.turbo/
+ui/.nx/
+ui/dist/
+ui/coverage/
+ui/.env.local
+ui/.env.development.local
+ui/.env.test.local
+ui/.env.production.local
+ui/*.log
+
+# Angular build artifacts
+ui/.firebase/
+ui/.sass-cache/
+ui/.parcel-cache/
+
+# ─────────────────────────────────────────────────────────────
+#  Optional: OS-generated files in nested folders
+# ─────────────────────────────────────────────────────────────
+**/.DS_Store
+**/Thumbs.db
+**/*.swp
+**/*~
