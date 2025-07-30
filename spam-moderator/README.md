@@ -24,7 +24,14 @@ $ cd spam-moderator
 $ cd api && npm install
 
 # 3. Environment vars (Twitter creds)
-$ cp .env.example .env         # then edit values
+$  add your Twitter creds .env         # then edit values
+| Key                     | Description               |
+| ----------------------- | ------------------------- |
+| `TWITTER_API_KEY`       | Consumer Key (OAuth 1.0a) |
+| `TWITTER_API_SECRET`    | Consumer Secret           |
+| `TWITTER_ACCESS_TOKEN`  | User Access Token         |
+| `TWITTER_ACCESS_SECRET` | User Access Token Secret  |
+
 
 # 4. Start the API
 $ npm run dev                  # http://localhost:4000
