@@ -5,7 +5,7 @@ A minimal **Node (TypeScript) + Angular** proof‑of‑concept that screens twee
 ---
 
 ## ✨ Features
-| **API (**\`\`**)** | • Express + TypeScript• Heuristic moderation (bad‑word list, spam regex) ✅• Plug‑and‑play for ML services (Perspective, OpenAI)• OAuth 1.0a call to Twitter v2 `POST /tweets` when accepted |
+| **API (**\`\`**)** | • Express + TypeScript• Heuristic moderation (bad‑word list, spam regex)• OAuth 1.0a call to Twitter v2 `POST /tweets` when accepted |
 | **UI (**\`\`**)**  | • Angular 18 stand‑alone components• Angular Material 3 design• Live char counter (280), clear‑input button• Colour‑coded status banner & chip list 
 
 ## 🛠 Requirements
